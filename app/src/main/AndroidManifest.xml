@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.llcattendance">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Tybcom_Computer"></activity>
+        <activity android:name=".Sybcom_Computer" />
+        <activity android:name=".Fybcom_Tutorial" />
+        <activity
+            android:name=".fybcom_v"
+            android:label="FY BCOM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sybcom_v"
+            android:label="SY BCOM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fybcom"
+            android:label="FY BCOM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bcom_n"
+            android:label="SY BCOM "
+            android:logo="@drawable/logo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".A_Tybcom"
+            android:icon="@drawable/logo"
+            android:label="TY BCOM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tybcom_main"
+            android:icon="@drawable/logo"
+            android:label="TY BCOM"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

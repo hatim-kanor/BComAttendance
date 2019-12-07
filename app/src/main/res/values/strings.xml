@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lala Attendance</string>
+    <string name="string">________________________________</string>
+    <string name="app_guide">APP GUIDE: \n PROF. JAYSHRI PARAB - BSCIT</string>
+    <string name="developer_name">DEVELOPED BY: \n HATIM KANORWALA - TYBSCIT</string>
+    <string name="Login_ET">Enter Stream ID</string>
+    <string name="title_activity_tybcom_main">BCOM ATTENDANCE</string>
+    <string name="title_absent">ABSENT</string>
+    <string name="title_sheet">SHEET</string>
+</resources>
