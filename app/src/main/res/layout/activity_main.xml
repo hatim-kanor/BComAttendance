@@ -41,7 +41,6 @@
         android:textColorHint="@android:color/black"
         android:textColor="@android:color/black"
         android:layout_below="@id/textView"
-        android:textFontWeight="3"
         android:hint="Enter Stream Login" />
 
 
