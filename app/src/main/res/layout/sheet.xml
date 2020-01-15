@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     android:theme="@style/Theme.AppCompat.NoActionBar"
     >
 
     <TextView
-        android:id="@+id/layer"
-        android:layout_width="match_parent"
-        android:text="x  "
-        android:layout_alignParentRight="true"
-        android:textAlignment="textEnd"
-        android:textSize="30dp"
-        android:layout_margin="5px"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimary"
+        android:id="@+id/disp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="end" />
+        android:layout_marginLeft="20sp"
+        android:text="SY A"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:layout_marginRight="10sp"
+        android:text="X  "
+        android:textColor="@android:color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:fontFamily="casual" />
 
     <WebView
         android:id="@+id/view"
         android:layout_below="@id/layer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="InvalidId">
+        android:layout_height="match_parent">
 
     </WebView>
 
